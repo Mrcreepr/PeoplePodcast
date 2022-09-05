@@ -34,7 +34,7 @@
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: rgba(3, 10, 130, 0.96);
+    -webkit-text-fill-color: rgba(4, 10, 130, 0.96);
     -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
