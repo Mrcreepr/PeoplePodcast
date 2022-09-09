@@ -102,7 +102,12 @@
     transition: all 0.3s ease;
 }
 
+#mobile-menu {
+    display: none;
+}
+
 @media screen and (max-width: 960px) {
+    #mobile-menu:hover
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -161,6 +166,7 @@
         }
 
         #mobile-menu {
+            display: block;
             position: absolute;
             top: 20%;
             right: 5%;
