@@ -5,29 +5,33 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
 
     animation-name: backgroundColorPalette;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: linear; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
 
 }
 
 @keyframes backgroundColorPalette {
-	0% {
-		background: #aeee55;
-	}
-	25% {
-		background: #60d394;
-	}
-	50% {
-		background: #aaf683;
-	}
-	75% {
-		background: #ffd97d;
-	}
-	100% {
-		background: #ff9b85;
-	}
+    0% {
+        background: #aeee55;
+    }
+
+    25% {
+        background: #60d394;
+    }
+
+    50% {
+        background: #aaf683;
+    }
+
+    75% {
+        background: #ffd97d;
+    }
+
+    100% {
+        background: #ff9b85;
+    }
 }
 
 
@@ -155,6 +159,11 @@ body {
         height: 50vh;
         z-index: -1;
         background: #131313;
+        padding-inline-start: 0;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        max-width: 1300px;
     }
 
     .navbar__menu.active {
@@ -184,6 +193,7 @@ body {
     }
 
     .navbar__links {
+        box-sizing: border-box;
         text-align: center;
         padding: 2rem;
         width: 100%;
@@ -200,6 +210,7 @@ body {
 
     .navbar__btn {
         padding-bottom: 2rem;
+        padding-left: 0;
     }
 
     .button {
@@ -238,4 +249,6 @@ main {
     max-width: 1300px;
     margin: 0 auto;
     padding: 20px 50px;
+    box-sizing: border-box;
+
 }
