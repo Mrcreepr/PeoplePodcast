@@ -251,4 +251,21 @@ main {
     padding: 20px 50px;
     box-sizing: border-box;
 
+
+
+}
+
+.abt-us-img {
+
+    width: 100%;
+    
+}
+
+.about-us-text {
+    border:solid 5px #3310e1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
 }
