@@ -122,7 +122,7 @@ body {
 }
 
 .button:hover {
-    background: #4837ff;
+    background: #e4790f;
     transition: all 0.3s ease;
 
 }
@@ -268,4 +268,9 @@ main {
     padding-left: 2%;
     padding-right: 2%;
     
+}
+
+.w-100 {
+    width: 100%;
+
 }
