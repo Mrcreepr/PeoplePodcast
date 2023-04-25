@@ -12,7 +12,7 @@ body {
 
 }
 
-@keyframes backgroundColorPalette {
+/*@keyframes backgroundColorPalette {
     0% {
         background: #aeee55;
     }
@@ -32,11 +32,11 @@ body {
     100% {
         background: #ff9b85;
     }
-}
+} */
 
 
 .navbar {
-    background: #b2d116;
+    background: #1699d1;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -117,18 +117,18 @@ body {
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #6ed50e;
+    background: #0ed5a7;
     color: rgb(63, 40, 5);
 }
 
 .button:hover {
-    background: #e4790f;
+    background: #e2dcd5;
     transition: all 0.3s ease;
 
 }
 
 .navbar__links:hover {
-    color: #94f762;
+    color: #cacedc;
     transition: all 0.3s ease;
 }
 
