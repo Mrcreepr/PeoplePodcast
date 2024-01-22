@@ -12,7 +12,7 @@ body {
 
 }
 
-/*@keyframes backgroundColorPalette {
+@keyframes backgroundColorPalette {
     0% {
         background: #aeee55;
     }
@@ -32,7 +32,7 @@ body {
     100% {
         background: #ff9b85;
     }
-} */
+}
 
 
 .navbar {
